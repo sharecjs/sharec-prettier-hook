@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prettierHook \`prettier\` field in package.json formats configs 1`] = `
+"{
+  \\"name\\": \\"awesome-package\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sharec\\": \\"1.0.0\\"
+  },
+  \\"prettier\\": {
+    \\"semi\\": false,
+    \\"singleQuote\\": true,
+    \\"trailingComma\\": \\"all\\",
+    \\"printWidth\\": 120,
+    \\"tabs\\": true,
+    \\"tabWidth\\": 2
+  }
+}
+"
+`;
+
+exports[`prettierHook js config file formats configs 1`] = `
+"{
+  \\"name\\": \\"package\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sharec\\": \\"1.0.0\\"
+  }
+}
+"
+`;
+
+exports[`prettierHook json config file formats configs 1`] = `
+"{
+  \\"name\\": \\"package\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sharec\\": \\"1.0.0\\"
+  }
+}
+"
+`;
+
+exports[`prettierHook without prettier config returns configs as is 1`] = `
+Object {
+  "package.json": "{
+    \\"name\\": \\"package\\",
+    \\"version\\": \\"1.0.0\\",
+    \\"dependencies\\": {
+        \\"sharec\\": \\"1.0.0\\"
+    }
+}",
+}
+`;
+
+exports[`prettierHook yaml config file with yaml extension formats configs 1`] = `
+"{
+  \\"name\\": \\"package\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sharec\\": \\"1.0.0\\"
+  }
+}
+"
+`;
+
+exports[`prettierHook yaml config file without yaml extension formats configs 1`] = `
+"{
+  \\"name\\": \\"package\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sharec\\": \\"1.0.0\\"
+  }
+}
+"
+`;
